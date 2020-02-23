@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Custom Login</string>
+
+    <!-- KbsLockFragment -->
+    <string name="RegistrationLockFragment__enter_your_pin">Enter your PIN</string>
+    <string name="RegistrationLockFragment__create_session">Create New Session</string>
+    <string name="RegistrationLockFragment__enter_the_pin_you_created">Enter the PIN you created for your account.</string>
+    <string name="RegistrationLockFragment__enter_alphanumeric_pin">Enter alphanumeric PIN</string>
+    <string name="RegistrationLockFragment__enter_numeric_pin">Enter numeric PIN</string>
+    <string name="RegistrationLockFragment__next">Next</string>
+    <string name="RegistrationLockFragment__incorrect_pin_try_again">Incorrect PIN. Try again.</string>
+    <string name="RegistrationLockFragment__forgot_pin">Forgot PIN?</string>
+    <string name="RegistrationLockFragment__incorrect_pin">Incorrect PIN</string>
+    <string name="RegistrationLockFragment__forgot_your_pin">Forgot your PIN?</string>
+    <string name="RegistrationLockFragment__not_many_tries_left">Not many tries left!</string>
+    <!-- RegistrationActivity -->
+    <string name="RegistrationActivity_select_your_country">Select your country</string>
+    <string name="RegistrationActivity_you_must_specify_your_country_code">You must specify your
+        country code
+    </string>
+    <string name="RegistrationActivity_you_must_specify_your_phone_number">You must specify your
+        phone number
+    </string>
+    <string name="RegistrationActivity_invalid_number">Invalid number</string>
+    <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">The number you
+        specified (%s) is invalid.
+    </string>
+    <string name="RegistrationActivity_missing_google_play_services">Missing Google Play Services</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">This device is missing Google Play Services. You can still use X-LinX, but this configuration may result in reduced reliability or performance.\n\nIf you are not an advanced user, are not running an aftermarket Android ROM, or believe that you are seeing this in error, please contact support@signal.org for help troubleshooting.</string>
+    <string name="RegistrationActivity_i_understand">I understand</string>
+    <string name="RegistrationActivity_play_services_error">Play Services Error</string>
+    <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services is updating or temporarily unavailable. Please try again.</string>
+    <string name="RegistrationActivity_terms_and_privacy">Terms &amp; Privacy Policy</string>
+    <string name="RegistrationActivity_no_browser">Unable to open this link. No web browser found.</string>
+    <string name="RegistrationActivity_more_information">More information</string>
+    <string name="RegistrationActivity_less_information">Less information</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">X-LinX needs access to your contacts and media in order to connect with friends, exchange messages, and make secure calls</string>
+    <string name="RegistrationActivity_unable_to_connect_to_service">Unable to connect to service. Please check network connection and try again.</string>
+    <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">To easily verify your phone number, X-LinX can automatically detect your verification code if you allow X-LinX to view SMS messages.</string>
+    <plurals name="RegistrationActivity_debug_log_hint">
+        <item quantity="one">You are now %d step away from submitting a debug log.</item>
+        <item quantity="other">You are now %d steps away from submitting a debug log.</item>
+    </plurals>
+    <string name="RegistrationActivity_we_need_to_verify_that_youre_human">We need to verify that you\'re human.</string>
+    <string name="RegistrationActivity_failed_to_verify_the_captcha">Failed to verify the CAPTCHA</string>
+    <string name="RegistrationActivity_next">Next</string>
+    <string name="RegistrationActivity_continue">Continue</string>
+    <string name="RegistrationActivity_create">Create</string>
+    <string name="RegistrationActivity_continue_d_attempts_left">Continue (%d attempts left)</string>
+    <string name="RegistrationActivity_continue_last_attempt">Continue (last attempt!)</string>
+    <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Take privacy with you.\nBe yourself in every message.</string>
+    <string name="RegistrationActivity_enter_your_phone_number_to_get_started">Enter your phone number to get started</string>
+    <string name="RegistrationActivity_you_will_receive_a_verification_code">You will receive a verification code. Carrier rates may apply.</string>
+    <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Enter the code we sent to %s</string>
+
+    <string name="RegistrationActivity_phone_number_description">Phone number</string>
+    <string name="RegistrationActivity_country_code_description">Country code</string>
+    <string name="RegistrationActivity_call">Call</string>
+
+    <!-- WebRtcCallActivity -->
+    <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">To answer the call from %s, give X-LinX access to your microphone.</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">X-LinX requires Microphone and Camera permissions in order to make or receive calls, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+
+    <!-- WebRtcCallScreen -->
+    <string name="WebRtcCallScreen_new_safety_numbers">The safety number for your conversation with %1$s has changed. This could either mean that someone is trying to intercept your communication, or that %2$s simply re-installed X-LinX.</string>
+    <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">You may wish to verify your safety number with this contact.</string>
+    <string name="WebRtcCallScreen_new_safety_number_title">New safety number</string>
+    <string name="WebRtcCallScreen_accept">Accept</string>
+    <string name="WebRtcCallScreen_end_call">End call</string>
+
+    <!-- WebRtcCallControls -->
+    <string name="WebRtcCallControls_tap_to_enable_your_video">Tap to enable your video</string>
+
+    <!-- WebRtcCallControls Content Descriptions -->
+    <string name="WebRtcCallControls_contact_photo_description">Contact photo</string>
+    <string name="WebRtcCallControls_speaker_button_description">Speaker</string>
+    <string name="WebRtcCallControls_bluetooth_button_description">Bluetooth</string>
+    <string name="WebRtcCallControls_mute_button_description">Mute</string>
+    <string name="WebRtcCallControls_your_camera_button_description">Your camera</string>
+    <string name="WebRtcCallControls_switch_to_rear_camera_button_description">Switch to rear camera</string>
+
+    <string name="WebRtcCallControls_answer_call_description">Answer call</string>
+    <string name="WebRtcCallControls_reject_call_description">Reject call</string>
+
+    <!-- webrtc_answer_decline_button -->
+    <string name="webrtc_answer_decline_button__swipe_up_to_answer">Swipe up to answer</string>
+    <string name="webrtc_answer_decline_button__swipe_down_to_reject">Swipe down to reject</string>
+
+    <!--- redphone_call_controls -->
+    <string name="redphone_call_card__signal_call">X-LinX Call</string>
+</resources>
